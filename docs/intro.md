@@ -1,47 +1,32 @@
 ---
 sidebar_position: 1
 ---
-
 # Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Notre **Système de Suivi d'Alimentation des Bébés** est une solution créée sur mesure pour les hôpitaux. Ce programme permet aux infirmières et aux pédiatres de gérer et de suivre facilement les événements liés à l'alimentation des bébés, tout en garantissant que chaque repas est enregistré de manière précise et traçable.
 
-## Getting Started
+## Fonctionnalités principales
 
-Get started by **creating a new site**.
+### 1. Connexion Sécurisée avec Active Directory
+Les utilisateurs peuvent se connecter en toute sécurité avec leurs identifiants Active Directory, assurant une intégration fluide et sécurisée.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 2. Gestion des Événements
+- **Créer des événements** : Scannez le code-barres du bébé et celui du lait pour enregistrer automatiquement les informations.
+- **Création en groupe** : Générez plusieurs événements à la fois.
+- **Affichage des événements** : Visualisez facilement les événements passés avec des recherches par numéro d'admission ou ID d'événement.
 
-### What you'll need
+### 3. Gestion de la Nutrition
+- **Afficher les types de lait** disponibles avec un code-barres et une description.
+- **Créer un nouvel enregistrement de nutrition**, avec impression de code-barres pour un étiquetage facile.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Comment ça marche
+1. **Scannez et enregistrez** les codes-barres du bébé et du lait.
+2. **Générez un ID d'événement** pour tracer chaque événement d'alimentation.
+3. **Imprimez des étiquettes** de nutrition avec des codes-barres pour une identification sans erreur.
 
-## Generate a new site
+## Pourquoi utiliser ce système ?
+- **Gain de temps** : Moins de travail manuel grâce à la numérisation des codes-barres.
+- **Suivi précis** : Chaque événement est enregistré avec un ID unique pour un traçage facile.
+- **Gestion intégrée** : Connexion fluide avec Active Directory pour plus de sécurité.
+- **Étiquetage précis** : Des codes-barres imprimables garantissent une alimentation correcte pour chaque bébé.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
