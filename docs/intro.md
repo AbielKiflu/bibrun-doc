@@ -23,10 +23,4 @@ Les utilisateurs peuvent se connecter en toute sécurité avec leurs identifiant
 1. **Scannez et enregistrez** les codes-barres du bébé et du lait.
 2. **Générez un ID d'événement** pour tracer chaque événement d'alimentation.
 3. **Imprimez des étiquettes** de nutrition avec des codes-barres pour une identification sans erreur.
-
-## Pourquoi utiliser ce système ?
-- **Gain de temps** : Moins de travail manuel grâce à la numérisation des codes-barres.
-- **Suivi précis** : Chaque événement est enregistré avec un ID unique pour un traçage facile.
-- **Gestion intégrée** : Connexion fluide avec Active Directory pour plus de sécurité.
-- **Étiquetage précis** : Des codes-barres imprimables garantissent une alimentation correcte pour chaque bébé.
-
+ 
